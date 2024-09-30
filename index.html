@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven Universe Wiki</title>
+
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/jquery.fancybox.min.css">
+    
+</head>
+<body>
+
+    <div class="contenedor-general">
+        <header>
+        
+            <div> <h1 id="logo">steven</h1> </div>
+    
+            <nav id="menu">
+                
+                <!-- BURGUER -->
+                
+                <ul id="burger">
+                <li><a href="#menu">Abrir</a></li>
+                <li><a href="#">Cerrar</a></li>
+                </ul>
+                
+                <ul id="barra">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#steven">Steven Universe</a></li>
+                    <li><a href="#personajes">Personajes</a></li>
+                    <li><a href="#trailer">Trailer</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+        <div class="contenedor-contenido">
+    
+            <main>
+    
+    <!-- BANNER -->
+    
+            <section>
+            <div class="banner">
+                <figure>
+                <img src="imagenes/fondo_nubes.png" alt="banner">
+                </figure>
+            </div>
+            </section>
+    
+    <!-- TEMA PRINCIPAL -->
+    
+        <section id="steven">
+        
+            <h2>tema principal</h2>
+    
+        <figure>
+            <picture>
+                <source media="(max-width: 575px)" srcset="imagenes/steven_estrellas_c.png">
+                <source media="(max-width: 991px)" srcset="imagenes/steven_estrellas_t.png">
+                <img src="imagenes/steven_estrellas.png" alt="stevenestrellas">
+            </picture>
+        </figure>
+    
+        <p>Steven Universe es una serie animada creada por Rebecca Sugar para Cartoon Network que ha sido aclamada por su innovadora narrativa y representación de temas como la diversidad, la identidad y el crecimiento personal. La historia sigue a Steven, un joven medio humano, medio Gema, mientras aprende a manejar sus poderes y a proteger la Tierra junto a las Crystal Gems: Garnet, Amethyst y Pearl. Con un enfoque que combina aventura, fantasía y un trasfondo emocional profundo, Steven Universe ofrece una experiencia rica tanto para niños como para adultos, abordando temas de amor incondicional, familia y aceptación, todo envuelto en un mundo de colores vibrantes y personajes encantadores.</p>
+        
+        <figure>
+            <picture>
+            <source media="(max-width: 575px )" srcset="imagenes/stevengatito_c.png">
+            <source media="(max-width: 991px )" srcset="imagenes/stevengatito_t.png">
+            <picture><img src="imagenes/stevengatito.jpg" alt=""> 
+            </picture>
+        </figure>
+    
+        <p>Lo que hace única a Steven Universe es su habilidad para mezclar humor, acción y momentos conmovedores, presentando un universo donde las relaciones emocionales son tan importantes como las batallas épicas. Cada personaje tiene un trasfondo complejo que va siendo revelado a lo largo de la serie, permitiendo una conexión profunda con el público. Además, la serie ha sido elogiada por su representación LGBTQ+ y su compromiso con la inclusión, marcando un hito en la animación moderna. A través de su música original, diseño visual distintivo y trama progresiva, Steven Universe sigue siendo una obra significativa que ha dejado una huella cultural duradera.</p>
+    
+    </section>
+    
+    <!-- PERSONAJES -->
+    
+    <section id="personajes">
+        
+        <h3>personajes</h3>
+    
+        <div class="linea-uno">
+            <figure><img src="imagenes/steven.png" alt="steven"></figure>
+        </div>
+        
+        <div class="linea-uno">
+            <figure><img src="imagenes/perla.png" alt="perla"></figure>
+        </div>
+        
+        <div class="linea-uno">
+            <figure><img src="imagenes/amatista.png" alt="amatista"></figure>
+        </div>
+        
+        <div class="linea-dos">
+            <figure><img src="imagenes/garnet.png" alt="garnet"></figure>
+        </div>
+        
+        <div class="linea-dos">
+            <figure><img src="imagenes/indu.png" alt="connie"></figure>
+        </div>
+    
+        <div class="linea-dos">
+            <figure><img src="imagenes/peridoto.png" alt="peridoto"></figure>
+        </div>
+    
+    </section>
+    
+    <!-- VÍDEO -->
+    
+    <section id="trailer">
+        <h4>Trailer</h4>
+        
+        <video class="video-trailer" width="560" height="315"  controls>
+            <source src="video/steven_trailer.mp4" type="video/mp4">
+            <source src="video/steven_trailer_ogv.ogv" type="video/ogg">
+        </video>
+
+<!--             <iframe width="560" height="315" src="https://www.youtube.com/embed/6OIGgDiHszo?si=0MOmRPcsjBNHkQIZ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+    
+        <p>Steven Universe sigue las aventuras de Steven, un joven que vive en la pequeña ciudad de Beach City. Como mitad humano y mitad Gema, Steven hereda increíbles poderes mágicos de su madre, Rose Quartz, una legendaria líder de las Crystal Gems, un grupo de guerreras alienígenas dedicadas a proteger la Tierra. Junto a Garnet, Amethyst y Pearl, Steven aprende a controlar sus poderes y a enfrentar las amenazas que ponen en peligro al planeta, mientras también descubre secretos sobre su familia y su legado. A medida que Steven madura, su viaje lo lleva a explorar temas como la amistad, el amor y el sacrificio, todo mientras busca su propio lugar en el mundo.</p>
+    </section>
+    
+    <!-- GALERÍA DE IMÁGENES -->
+    
+    <section id="galeria">
+        
+        <div id="galeria-imagenes">
+            
+            <a href="imagenes/galeria/islaflotante.jpg" data-fancybox="galeria-imagenes" data-srcset="imagenes/galeria/islaflotante_c.jpg 570w, imagenes/galeria/islaflotante_t.jpg 991w, imagenes/galeria/islaflotante.jpg 1600w"><img src="imagenes/galeria/islaflotante_min.jpg" alt=""></a>
+
+            <a href="imagenes/galeria/walldiosa.jpg" data-fancybox="galeria-imagenes" data-srcset="imagenes/galeria/walldiosa_c.jpg 570w, imagenes/galeria/walldiosa_t.jpg 991w, imagenes/galeria/walldiosa.jpg 1600w" ><img src="imagenes/galeria/walldiosa_min.jpg" alt=""></a>
+
+            <a href="imagenes/galeria/wallisla.jpg" data-fancybox="galeria-imagenes" data-srcset="imagenes/galeria/wallisla_c.jpg 570w, imagenes/galeria/wallisla_t.jpg 991w, imagenes/galeria/wallisla.jpg 1600w"><img src="imagenes/galeria/wallisla_min.jpg" alt=""></a>
+
+            <a href="imagenes/galeria/wallislaazul.jpg" data-fancybox="galeria-imagenes" data-srcset="imagenes/galeria/wallislaazul_c.jpg 570w, imagenes/galeria/wallislaazul_t.jpg 991w, imagenes/galeria/wallislaazul.jpg 1600w" ><img src="imagenes/galeria/wallislaazul_min.jpg" alt="">
+            </a>
+            
+            <a href="imagenes/galeria/wallsillas.jpg" data-fancybox="galeria-imagenes" data-srcset="imagenes/galeria/wallsillas_c.jpg 570w, imagenes/galeria/wallsillas_t.jpg 991w, imagenes/galeria/wallsillas.jpg 1600w" ><img src="imagenes/galeria/wallsillas_min.jpg" alt=""></a>
+            
+            <a href="imagenes/galeria/wallcircle.jpg" data-fancybox="galeria-imagenes" data-srcset="imagenes/galeria/wallcircle_c.jpg 570w, imagenes/galeria/wallcircle_t.jpg 991w, imagenes/galeria/wallcircle.jpg 1600w"><img src="imagenes/galeria/wallcircle_min.jpg" alt=""></a>
+
+            <a href="imagenes/galeria/wallislaflotante.jpg" data-fancybox="galeria-imagenes" data-srcset="imagenes/galeria/wallislaflotante_c.jpg 570w, imagenes/galeria/wallislaflotante_t.jpg 991w, imagenes/galeria/wallislaflotante.jpg 1600w"><img src="imagenes/galeria/wallislaflotante_min.jpg" alt=""></a>
+            
+            <a href="imagenes/galeria/wallsyp.jpg" data-fancybox="galeria-imagenes" data-srcset="imagenes/galeria/wallsyp_c.jpg 570w, imagenes/galeria/wallsyp_t.jpg 991w, imagenes/galeria/wallsyp.jpg 1600w"><img src="imagenes/galeria/wallsyp_min.jpg" alt=""></a>
+        
+        </div>
+    
+    </section>
+    
+    </main>
+    
+    <footer>
+    <p>ihuybuyboionnounbuiob</p>
+    </footer>
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/fotorama.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+</div>
+    </div>
+</body>
+</html>
